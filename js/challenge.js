@@ -6,6 +6,7 @@ const plus = document.getElementById('plus')
 const comment = document.getElementById('coment-input')
 const heart = document.getElementById('heart')
 const submit = document.getElementById('submit')
+
 function increaseTimer () {
     const n = document.getElementById('counter')
     n.innerText = parseInt(n.innerText) + 1
